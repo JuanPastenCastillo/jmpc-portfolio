@@ -13,17 +13,17 @@ export const INDEX_Home = () => {
 
       <article>
         <p>
-          <span>Myself:</span> Collaborative Team Player; Continuously Improving My Skills; Self Manager
+          <span data-content='Myself'>Myself:</span> Collaborative Team Player; Continuously Improving My Skills; Self Manager
         </p>
         <p>
-          <span>Education:</span> Self Taught Developer with a bachelor degree on Psychology
+          <span data-content='Education'>Education:</span> Self Taught Developer with a bachelor degree on Psychology
         </p>
         <p>
-          <span>Technologies:</span> HTML, CSS, Styled-Components, Tailwind, JavaScript, TypeScript, React, Nextjs, Redux, Zustand, Tanstack
-          Query, Nodejs, Express, SQL, Vitest, React-Testing-Library, Playwright, Git And Github
+          <span data-content='Technologies'>Technologies:</span> HTML, CSS, Styled-Components, Tailwind, JavaScript, TypeScript, React,
+          Nextjs, Redux, Zustand, Tanstack Query, Nodejs, Express, SQL, Vitest, React-Testing-Library, Playwright, Git And Github
         </p>
         <p>
-          <span>Hobbies:</span> Physical and Breath Exercise, General Learning, Videogames and Drums
+          <span data-content='Hobbies'>Hobbies:</span> Physical and Breath Exercise, General Learning, Videogames and Drums
         </p>
       </article>
 

@@ -48,6 +48,14 @@ export const INDEX_HomeWrapper = styled.div`
         font-size: var(--font-size-paragraph);
         color: var(--color-7);
         font-weight: 600;
+        position: relative;
+
+        &:before {
+          content: attr(data-content);
+          filter: blur(8px);
+          position: absolute;
+          left: 0;
+        }
       }
     }
   }
