@@ -42,7 +42,7 @@ export const INDEX_Home = () => {
             <p>
               <span>
                 <a
-                  href='#'
+                  href='https://blogtoshare.vercel.app/All'
                   target='_blank'>
                   Blog
                 </a>
@@ -53,9 +53,9 @@ export const INDEX_Home = () => {
             <p>
               <span>
                 <a
-                  href='#'
+                  href='https://agreducamlaportada.com'
                   target='_blank'>
-                  Agreeducam
+                  Agreeducam Website
                 </a>
               </span>
             </p>
@@ -64,7 +64,7 @@ export const INDEX_Home = () => {
             <p>
               <span>
                 <a
-                  href='#'
+                  href='https://state-managers.vercel.app/'
                   target='_blank'>
                   Global State Managers
                 </a>
@@ -75,7 +75,7 @@ export const INDEX_Home = () => {
             <p>
               <span>
                 <a
-                  href='#'
+                  href='https://github.com/JuanPastenCastillo/node'
                   target='_blank'>
                   Nodejs and Expressjs Knowledge
                 </a>
@@ -86,7 +86,7 @@ export const INDEX_Home = () => {
             <p>
               <span>
                 <a
-                  href='#'
+                  href='https://pomodoro-react-hazel.vercel.app/'
                   target='_blank'>
                   Pomodoro
                 </a>
@@ -97,7 +97,7 @@ export const INDEX_Home = () => {
             <p>
               <span>
                 <a
-                  href='#'
+                  href='https://calculator-react-nine.vercel.app/'
                   target='_blank'>
                   Calculator
                 </a>
@@ -108,7 +108,7 @@ export const INDEX_Home = () => {
             <p>
               <span>
                 <a
-                  href='#'
+                  href='https://markdown-live-previewer-two.vercel.app/'
                   target='_blank'>
                   Markdown live previewer
                 </a>
@@ -119,7 +119,7 @@ export const INDEX_Home = () => {
             <p>
               <span>
                 <a
-                  href='#'
+                  href='https://random-quote-chi.vercel.app/'
                   target='_blank'>
                   Random quote generator
                 </a>
@@ -158,7 +158,7 @@ export const INDEX_Home = () => {
 
       <footer>
         <span>
-          <a href='#'>email</a>
+          <a href='mailto:juanpastencastillo@gmail.com'>email</a>
         </span>
         <span>
           <a
