@@ -7,7 +7,15 @@ export const INDEX_Home = () => {
       <header>
         <span>Juan Pastén Castillo</span>
         <h1>
-          <span className={styles.gradientText}>Frontend Developer</span> <span>+2 YoE</span>
+          <span
+            className={styles.gradientText}
+            data-content='Frontend Developer'>
+            Frontend Developer
+          </span>{" "}
+          <span>
+            <span>+2 YoE</span>
+            <span className={styles.gradientText1} />
+          </span>
         </h1>
       </header>
 
@@ -28,7 +36,7 @@ export const INDEX_Home = () => {
       </article>
 
       <section>
-        <h2>My work</h2>
+        <h2 data-content='My work'>My work</h2>
         <ul>
           <li>
             <p>

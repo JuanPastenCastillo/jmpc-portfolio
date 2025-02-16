@@ -17,7 +17,8 @@
   }
 }
 
-.gradientText {
+.gradientText,
+.gradientText:before {
   animation: gradient-change 3.3s linear infinite alternate;
 
   background: linear-gradient(to right in oklch, var(--＠color-0), var(--＠color-1));
@@ -27,4 +28,28 @@
 
   background-clip: text;
   color: transparent;
+
+  /* position: relative; */
+}
+
+.gradientText:before {
+  content: attr(data-content);
+  filter: blur(8px);
+  position: absolute;
+  left: 0;
+}
+
+.gradientText1,
+.gradientText1:before {
+  animation: gradient-change 2.5s linear infinite alternate;
+
+  background: linear-gradient(to right in oklch, var(--＠color-0), var(--＠color-1));
+
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+  color: transparent; */
+
+  /* position: relative; */
 }

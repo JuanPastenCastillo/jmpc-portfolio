@@ -20,19 +20,27 @@ export const INDEX_HomeWrapper = styled.div`
     & > :nth-child(2) {
       display: grid;
 
-      color: var(--color-7);
-
       & > :nth-child(1) {
         font-size: calc(var(--font-size-h1) * 1.2);
+        position: relative;
       }
 
       & > :nth-child(2) {
-        color: var(--color-8);
-        text-align: right;
+        position: relative;
 
-        text-decoration: underline;
-        text-decoration-color: var(--color-7);
-        text-decoration-thickness: 4px;
+        width: fit-content;
+        margin-left: auto;
+
+        & > :nth-child(2) {
+          position: absolute;
+          left: -4px;
+          bottom: calc(-2px);
+
+          width: calc(100% + 8px);
+          height: 4px;
+
+          border-radius: 8px;
+        }
       }
     }
   }
@@ -62,6 +70,18 @@ export const INDEX_HomeWrapper = styled.div`
 
   & > :nth-child(3) {
     margin-top: calc(8px * 6);
+
+    & > :nth-child(1) {
+      position: relative;
+
+      text-decoration: underline;
+      &:before {
+        content: attr(data-content);
+        filter: blur(8px);
+        position: absolute;
+        left: 0;
+      }
+    }
 
     & > :nth-child(2) {
       margin-top: calc(8px * 1);
