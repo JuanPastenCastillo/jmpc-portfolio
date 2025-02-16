@@ -28,8 +28,6 @@ export const GlobalStyle = createGlobalStyle`
   --color-10: #E7F5F9;
   --color-11: #CCAFE1;
   --color-12: #3B60E4;
-  
-  
 }
 
 * {

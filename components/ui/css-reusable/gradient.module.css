@@ -1,0 +1,30 @@
+@property --＠color-0 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: hsl(4.4, 82%, 67.3%);
+}
+
+@property --＠color-1 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: hsl(194.9, 62.9%, 53.5%);
+}
+
+@keyframes gradient-change {
+  to {
+    --＠color-0: hsl(310 100% 59%);
+    --＠color-1: hsl(226.9, 75.8%, 56.3%);
+  }
+}
+
+.gradientText {
+  animation: gradient-change 3.3s linear infinite alternate;
+
+  background: linear-gradient(to right in oklch, var(--＠color-0), var(--＠color-1));
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+  color: transparent;
+}

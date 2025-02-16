@@ -1,3 +1,4 @@
+import styles from "@/components/ui/css-reusable/gradient.module.css"
 import Head from "next/head"
 import { HomeWrapper } from "./home-wrapper"
 
@@ -20,7 +21,7 @@ export default function Home() {
         <header>
           <span>Juan Pastén Castillo</span>
           <h1>
-            <span>Frontend Developer</span> <span>+2 YoE</span>
+            <span className={styles.gradientText}>Frontend Developer</span> <span>+2 YoE</span>
           </h1>
         </header>
 
