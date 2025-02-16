@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const HomeWrapper = styled.div`
+export const INDEX_HomeWrapper = styled.div`
   --max-width-content: calc(256px * 2);
   --padding-content-inline: calc(8px * 2);
 
