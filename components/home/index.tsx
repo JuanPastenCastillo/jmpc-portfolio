@@ -1,7 +1,6 @@
 import styles from "@/components/ui/css-reusable/gradient.module.css"
 import Particles from "./particles"
-import { BackgroundWrapper } from "./styles/background-wrapper"
-import { INDEX_HomeWrapper } from "./styles/index-wrapper"
+import { BackgroundWrapper, INDEX_HomeWrapper } from "./styles/index-wrapper"
 
 export const INDEX_Home = () => {
   return (
@@ -29,8 +28,8 @@ export const INDEX_Home = () => {
             <span data-content='Education'>Education:</span> Self Taught Developer with a bachelor degree on Psychology
           </p>
           <p>
-            <span data-content='Technologies'>Technologies:</span> HTML, CSS, Styled-Components, Tailwind, JavaScript, TypeScript, React,
-            Nextjs, Redux, Zustand, Tanstack Query, Nodejs, Express, SQL, Vitest, React-Testing-Library, Playwright, Git And Github
+            <span data-content='Technologies'>Technologies:</span> HTML, CSS, Styled-Components, Emotion, Tailwind, JavaScript, TypeScript,
+            React, Nextjs, Redux, Zustand, Tanstack Query, Nodejs, Express, SQL, Vitest, React-Testing-Library, Playwright, Git And Github
           </p>
           <p>
             <span data-content='Hobbies'>Hobbies:</span> Physical and Breath Exercise, General Learning, Videogames and Drums

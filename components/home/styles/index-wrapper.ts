@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "@emotion/styled"
 
 export const INDEX_HomeWrapper = styled.div`
   --max-width-content: calc(256px * 2);
@@ -97,5 +97,18 @@ export const INDEX_HomeWrapper = styled.div`
     display: flex;
     justify-content: center;
     gap: calc(8px * 2);
+  }
+`
+
+export const BackgroundWrapper = styled.div`
+  & > :nth-child(1) {
+    position: relative;
+    z-index: 2;
+  }
+
+  & > :nth-child(2) {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
   }
 `

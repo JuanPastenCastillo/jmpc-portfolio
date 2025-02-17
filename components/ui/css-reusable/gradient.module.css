@@ -28,8 +28,6 @@
 
   background-clip: text;
   color: transparent;
-
-  /* position: relative; */
 }
 
 .gradientText:before {

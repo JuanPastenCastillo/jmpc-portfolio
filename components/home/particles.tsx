@@ -1,7 +1,7 @@
 import { Camera, Geometry, Mesh, Program, Renderer } from "ogl"
 import React, { useEffect, useRef } from "react"
 
-import styles from "./particles.module.css"
+import styles from "./styles/particles.module.css"
 
 interface ParticlesProps {
   particleCount?: number
